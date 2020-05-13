@@ -15,6 +15,7 @@ import org.openqa.selenium.devtools.network.model.ResourceType;
 import org.openqa.selenium.devtools.target.Target;
 import org.openqa.selenium.devtools.target.model.TargetInfo;
 
+import java.io.IOException;
 import java.util.Optional;
 import java.util.Set;
 
@@ -27,10 +28,10 @@ import static org.openqa.selenium.support.locators.RelativeLocator.withTagName;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         //Selenium 4
-        System.setProperty("webdriver.chrome.driver", "/Users/mbahsama/Projects/Dev/extensions/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/chromedriver");
         var chromeDriver = new ChromeDriver();
 
         var chromeDevTools = chromeDriver.getDevTools();
