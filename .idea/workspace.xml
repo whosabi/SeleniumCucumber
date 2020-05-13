@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f48c7d8d-1416-490f-bf74-4a49f1e42449" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +38,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="CucumberBasics" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +74,7 @@
       <recent name="C:\Users\Karthik\IdeaProjects\CucumberBasics\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -294,9 +317,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG./Users/karthikkk/seleniumjavabasic/SeleniumWithCucucumber/src/test/java/testng.xml" />
-        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.runnerTest" />
       </list>
@@ -322,15 +345,6 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -365,22 +379,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1200" height="637" key="DiffContextDialog/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589403018707" />
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1589400258471">
+    <state width="1358" height="383" key="GridCell.Tab.0.bottom" timestamp="1589404867622">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589400258471" />
-    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1589400258470">
+    <state width="1358" height="383" key="GridCell.Tab.0.bottom/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589404867622" />
+    <state width="1358" height="383" key="GridCell.Tab.0.center" timestamp="1589404867621">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.center/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589400258470" />
-    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1589400258469">
+    <state width="1358" height="383" key="GridCell.Tab.0.center/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589404867621" />
+    <state width="1358" height="383" key="GridCell.Tab.0.left" timestamp="1589404867620">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.left/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589400258469" />
-    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1589400258470">
+    <state width="1358" height="383" key="GridCell.Tab.0.left/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589404867620" />
+    <state width="1358" height="383" key="GridCell.Tab.0.right" timestamp="1589404867621">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.right/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589400258470" />
+    <state width="1358" height="383" key="GridCell.Tab.0.right/-259.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1589404867621" />
     <state x="300" y="181" key="Vcs.Push.Dialog.v2" timestamp="1589400238819">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -391,12 +405,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ea/Main.java</url>
-          <line>71</line>
+          <line>80</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ea/Main.java</url>
-          <line>74</line>
+          <line>83</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
