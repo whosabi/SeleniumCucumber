@@ -42,7 +42,7 @@ public class Main {
         options.addArguments("--no-sandbox");
 
         var chromeDriver = new ChromeDriver(options);
-/*
+
         var chromeDevTools = chromeDriver.getDevTools();
         //Session of ChromeDevTool
         chromeDevTools.createSession();
@@ -64,7 +64,7 @@ public class Main {
         consoleLogs(chromeDevTools, message);
         chromeDriver.executeScript("console.log('" + message + "');");
 
-*/
+
         chromeDriver.get("https://amazon.in");
 
     }
