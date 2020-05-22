@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="0.806" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="5.711" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -56,17 +56,17 @@
     <property name="socksNonProxyHosts" value="http://127.0.0.1:55734/AdProxy|*.http://127.0.0.1:55734/AdProxy"/>
     <property name="ftp.nonProxyHosts" value="http://127.0.0.1:55734/AdProxy|*.http://127.0.0.1:55734/AdProxy"/>
   </properties>
-  <testcase name="runScenario" classname="runner.TestRunner" time="0.212">
+  <testcase name="runScenario" classname="runner.TestRunner" time="0.213">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 </failure>
     <system-out><![CDATA[Login with correct username and password
 Closing the browser : MOCK
 ]]></system-out>
-    <system-err><![CDATA[May 22, 2020 12:10:03 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+    <system-err><![CDATA[May 22, 2020 12:21:07 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
 INFO: Loading ObjectFactory via service loader: io.cucumber.picocontainer.PicoFactory
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="runner.TestRunner" time="0">
+  <testcase name="runScenario" classname="runner.TestRunner" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 </failure>
     <system-out><![CDATA[Login with correct username and password to fail
