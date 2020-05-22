@@ -5,7 +5,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.Console;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.inspector.Inspector;
@@ -16,7 +15,6 @@ import org.openqa.selenium.devtools.network.model.ResourceType;
 import org.openqa.selenium.devtools.target.Target;
 import org.openqa.selenium.devtools.target.model.TargetInfo;
 
-import java.io.IOException;
 import java.util.Optional;
 import java.util.Set;
 
@@ -29,19 +27,11 @@ import static org.openqa.selenium.support.locators.RelativeLocator.withTagName;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         //Selenium 4
-        System.setProperty("webdriver.chrome.driver", "/Users/mbahsama/Projects/Dev/extensions/chromedriver");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
-        options.addArguments("disable-infobars");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--no-sandbox");
-
-        var chromeDriver = new ChromeDriver(options);
+        System.setProperty("webdriver.chrome.driver", "/Users/karthikkk/ChromeDriver/chromedriver");
+        var chromeDriver = new ChromeDriver();
 
         var chromeDevTools = chromeDriver.getDevTools();
         //Session of ChromeDevTool
